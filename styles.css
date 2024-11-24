@@ -6,6 +6,15 @@ body{
   padding: 0;
 }
 
+container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .logo{
   display: flex;
   align-items: center;
@@ -31,4 +40,37 @@ body{
 
 nav a:hover{
   color: #fff;
+}
+
+main {
+  padding: 50px 20px;
+}
+
+.content {
+  min-width: 50%;
+}
+
+.content h1 {
+  font-size: 40px;
+}
+
+.content h1 span {
+  color: #ff7b54;
+}
+
+.content p{
+  color: #a8a8a8;
+  line-height: 1.5;
+}
+
+.form-group{
+  margin-top: 20px;
+}
+
+.form-group input {
+  padding: 15px;
+  background-color: #2e2e2e;
+  color: #fff;
+  border-radius: 30px;
+  border: 2px solid #333;
 }
